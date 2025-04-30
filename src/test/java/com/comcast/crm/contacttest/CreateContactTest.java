@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 import com.comcast.crm.generic.fileutility.ExcelUtility;
-import com.comcast.crm.generic.fileutility.FileUtility;
+import com.comcast.crm.generic.fileutility.PropertyFileUtility;
 import com.comcast.crm.generic.webdriverutility.JavaUtility;
 import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
 import com.comcast.crm.objectrepositoryutility.ContactsInfoPage;
@@ -24,7 +24,7 @@ public class CreateContactTest {
 	public void run() throws IOException {
 		
 		//create object
-		FileUtility f = new FileUtility();
+		PropertyFileUtility f = new PropertyFileUtility();
 		ExcelUtility e = new ExcelUtility();
 		JavaUtility j = new JavaUtility();
 		WebDriverUtility w = new WebDriverUtility();

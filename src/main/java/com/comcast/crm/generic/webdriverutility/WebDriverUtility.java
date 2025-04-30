@@ -43,7 +43,7 @@ public class WebDriverUtility {
 	public void switchToTabOnURL(WebDriver driver, String partialURL) {
 		Set<String> set = driver.getWindowHandles();
 		Iterator<String> it = set.iterator();
-		while (it.hasNext()) {
+ 		while (it.hasNext()) {
 			String windowID = it.next();
 			driver.switchTo().window(windowID);
 			String actURL = driver.getCurrentUrl();
@@ -138,8 +138,6 @@ public class WebDriverUtility {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,-document.body.scrollHeight)");
 	}
-	
-	
 	
 
 }
