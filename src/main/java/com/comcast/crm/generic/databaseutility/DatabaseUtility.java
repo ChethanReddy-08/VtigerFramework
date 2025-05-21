@@ -1,21 +1,15 @@
 package com.comcast.crm.generic.databaseutility;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import org.apache.poi.EncryptedDocumentException;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 import com.mysql.jdbc.Driver;
 
-public class DatabaseUtility 
+public class DatabaseUtility implements Framework_Constants
 {
 	Connection conn;
 	public void getDBConnection()
@@ -24,9 +18,8 @@ public class DatabaseUtility
 		{
 			Driver d = new Driver();
 			DriverManager.registerDriver(d);
-			DriverManager.getConnection("url"," username", "password");
-			
-		} catch (Exception e) {
+			DriverManager.getConnection(url,username,password);
+			} catch (Exception e) {
 		}
 	}
 	
@@ -60,22 +53,5 @@ public class DatabaseUtility
 		}
 		return result;
 	}
-	 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }

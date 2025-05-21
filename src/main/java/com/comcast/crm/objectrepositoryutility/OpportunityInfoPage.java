@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class OpportunityInfoPage
 {
 
-	@FindBy(className = "dvHeaderText")
+	@FindBy(xpath  = "//span[@class='dvHeaderText']")
 	private WebElement headertext;
 	
 	WebDriver driver;

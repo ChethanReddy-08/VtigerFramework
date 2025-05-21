@@ -5,6 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
 
 public class HomePage 
 {
@@ -92,9 +95,12 @@ public class HomePage
 		act.moveToElement(morelink).perform();
 		invoicelink.click();
 	}
+	
 	public void logout()
 	{
 		Actions act = new Actions(driver);
+		WebDriverUtility wdlib = new WebDriverUtility();
+		wdlib.waitForElementToBeClickable(driver, adminImg);
 		act.moveToElement(adminImg).perform();
 		signoutlink.click();
 	}

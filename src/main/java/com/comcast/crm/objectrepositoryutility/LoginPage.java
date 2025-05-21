@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
+
 public class LoginPage 
 {
 	@FindBy(name = "user_name")
@@ -31,8 +33,12 @@ public class LoginPage
 	public WebElement getLoginbtn() {
 		return loginbtn;
 	}
-	public void logintoApp(String username , String password)
+	WebDriverUtility wd = new WebDriverUtility();
+	public void logintoApp(String url, String username , String password)
 	{
+		wd.waitForPagetoLoad(driver);
+		wd.maximizeWindow(driver);
+		driver.get(url);
 		usernameedt.sendKeys(username);
 		passwordedt.sendKeys(password);
 		loginbtn.click();

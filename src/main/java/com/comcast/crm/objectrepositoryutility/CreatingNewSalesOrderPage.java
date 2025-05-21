@@ -26,7 +26,7 @@ public class CreatingNewSalesOrderPage
 	@FindBy(name = "qty1")
 	private WebElement qtyEdt;
 	
-	@FindBy(name = "//input[@title='Save [Alt+S]']")
+	@FindBy(xpath = "//input[@title='Save [Alt+S]']")
 	private WebElement savebtn;
 	
 	public WebElement getSubjectEdt() {

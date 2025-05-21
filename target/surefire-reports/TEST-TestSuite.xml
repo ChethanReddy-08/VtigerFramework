@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="163.554" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="136.116" tests="18" errors="0" skipped="7" failures="2">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\CHETHAN REDDY DR\AppData\Local\Temp\surefire6829648755482981838\surefirebooter-20250429123827092_3.jar C:\Users\CHETHAN REDDY DR\AppData\Local\Temp\surefire6829648755482981838 2025-04-29T12-38-26_631-jvmRun1 surefire-20250429123827092_1tmp surefire_0-20250429123827092_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\CHETHAN REDDY DR\AppData\Local\Temp\surefire15614434943836291022\surefirebooter-20250506160901354_3.jar C:\Users\CHETHAN REDDY DR\AppData\Local\Temp\surefire15614434943836291022 2025-05-06T16-09-00_833-jvmRun1 surefire-20250506160901354_1tmp surefire_0-20250506160901354_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\SeleniumPractice\ComcastCRMGUIFramework\target\test-classes;D:\SeleniumPractice\ComcastCRMGUIFramework\target\classes;C:\Users\CHETHAN REDDY DR\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;C:\Users\CHETHAN REDDY DR\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\CHETHAN REDDY DR\AppData\Local\Temp\surefire6829648755482981838\surefirebooter-20250429123827092_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\CHETHAN REDDY DR\AppData\Local\Temp\surefire15614434943836291022\surefirebooter-20250506160901354_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.14+8-LTS-191"/>
@@ -58,128 +58,239 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="run" classname="com.comcast.crm.contacttest.CreateContactandOrgTest" time="19.111">
-    <system-out><![CDATA[Reddy4402 is verfied
-RCB_4266 is verified
+  <testcase name="createLead" classname="com.comcast.crm.leadtest.CreateLead" time="5.764">
+    <system-out><![CDATA[connect to DB , Report Config
+launch the browser
+Login
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+May 06, 2025 4:09:03 PM io.opentelemetry.api.GlobalOpenTelemetry maybeAutoConfigureAndSetGlobal
+INFO: AutoConfiguredOpenTelemetrySdk found on classpath but automatic configuration is disabled. To enable, run your JVM with -Dotel.java.global-autoconfigure.enabled=true
+May 06, 2025 4:09:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 135
 ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
-Apr 29, 2025 12:38:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+]]></system-err>
+  </testcase>
+  <testcase name="createContactAndOrgTest" classname="com.comcast.crm.contacttest.CreateContactTest" time="10.996">
+    <system-out><![CDATA[Logout
+closed the browser
+launch the browser
+Login
+]]></system-out>
+    <system-err><![CDATA[May 06, 2025 4:09:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="createorg" classname="com.comcast.crm.orgtest.CreateorgTest" time="9.643">
-    <system-out><![CDATA[RCB_827 is created
-RCB_827 is verified
+  <testcase name="createContactTest" classname="com.comcast.crm.contacttest.CreateContactTest" time="4.047">
+    <system-out><![CDATA[Logout
+Login
 ]]></system-out>
-    <system-err><![CDATA[Apr 29, 2025 12:38:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  </testcase>
+  <testcase name="createContactwithSupportDateTest" classname="com.comcast.crm.contacttest.CreateContactTest" time="4.374">
+    <system-out><![CDATA[Logout
+Login
+]]></system-out>
+  </testcase>
+  <testcase name="createOpportunityWithOrg" classname="com.comcast.crm.opportunitytest.CreateOpportunities" time="13.685">
+    <system-out><![CDATA[Logout
+closed the browser
+launch the browser
+Login
+]]></system-out>
+    <system-err><![CDATA[May 06, 2025 4:09:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="run" classname="com.comcast.crm.systemtest.TC_01_CreateCompains" time="11.139">
-    <system-out><![CDATA[Kalki_2958 is verified
-Kalki_4430 is edited successfully
- 2025-05-29
-2025-05-29 is verified
+  <testcase name="createInvoiceWithOrgAndProduct" classname="com.comcast.crm.invoicetest.CreateInvoice" time="15.004">
+    <system-out><![CDATA[Logout
+closed the browser
+launch the browser
+Login
 ]]></system-out>
-    <system-err><![CDATA[Apr 29, 2025 12:38:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 06, 2025 4:10:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="run" classname="com.comcast.crm.contacttest.CreateContactTest" time="9.094">
-    <system-out><![CDATA[Chethan3635 is verified
+  <testcase name="createCompainsTest" classname="com.comcast.crm.campaignstest.CreateCompainsTest" time="6.461">
+    <system-out><![CDATA[Logout
+closed the browser
+launch the browser
+Login
 ]]></system-out>
-    <system-err><![CDATA[Apr 29, 2025 12:39:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 06, 2025 4:10:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="run" classname="com.comcast.crm.orgtest.CreateOrgWithIndustryTest" time="10.731">
-    <system-out><![CDATA[Media is verified
-Customer is verified
+  <testcase name="createProduct" classname="com.comcast.crm.producttest.CreateProduct" time="4.18">
+    <system-out><![CDATA[Logout
+closed the browser
+launch the browser
+Login
 ]]></system-out>
-    <system-err><![CDATA[Apr 29, 2025 12:39:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 06, 2025 4:10:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="run" classname="com.comcast.crm.systemtest.TC_02_CreateOpportunities" time="16.286">
-    <system-out><![CDATA[Robo_3687 is created
-BlackBox_2223 is created and verified
-BlackBox_2223 is verified in opp page
+  <testcase name="createSalesOrderWithOrgAndOpportunityAndProduct" classname="com.comcast.crm.salesordertest.CreateSalesOrder" time="21.53">
+    <system-out><![CDATA[Logout
+closed the browser
+launch the browser
+Login
 ]]></system-out>
-    <system-err><![CDATA[Apr 29, 2025 12:39:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 06, 2025 4:10:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="run" classname="com.comcast.crm.contacttest.CreatecontactwithsupportdateTest" time="9.252">
-    <system-out><![CDATA[Chethan1006 is verified
-2025-04-29 is verified
-2025-05-29 is verified
-]]></system-out>
-    <system-err><![CDATA[Apr 29, 2025 12:39:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
-  </testcase>
-  <testcase name="run" classname="com.comcast.crm.orgtest.CreateorgwithPhoneNoTest" time="9.54">
-    <system-out><![CDATA[7022246246 is verified
-]]></system-out>
-    <system-err><![CDATA[Apr 29, 2025 12:39:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
-  </testcase>
-  <testcase name="run" classname="com.comcast.crm.systemtest.TC_03_CreateSalesOrder" time="26.57">
-    <system-out><![CDATA[RCB_1230 is created and verified
-Virat_620 is created and verified
-Jersey_2253 is created and verified
-ProjectK_4033 is not created and verified
-]]></system-out>
-    <system-err><![CDATA[Apr 29, 2025 12:40:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 135
-Apr 29, 2025 12:40:30 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:984)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:939)
+  <testcase name="createOrgTest" classname="com.comcast.crm.orgtest.CreateOrgTest" time="3.064">
+    <failure message="Unable to find element with locator By.className: dvHeaderText&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.14&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Unable to find element with locator By.className: dvHeaderText
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.getText(Unknown Source)
+	at com.comcast.crm.orgtest.CreateOrgTest.createOrgTest(CreateOrgTest.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:939)
-
-]]></system-err>
-  </testcase>
-  <testcase name="run" classname="com.comcast.crm.systemtest.TC_04_CreateInvoice" time="21.242">
-    <system-out><![CDATA[RCB_2157 is created and verified
-Jersey_3400 is created and verified
-[ INV61 ] ProjectK_113 - Invoice Information
-ProjectK_113 is created and verified
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Logout
+closed the browser
+launch the browser
+Login
 ]]></system-out>
-    <system-err><![CDATA[Apr 29, 2025 12:40:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 06, 2025 4:11:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="run" classname="com.comcast.crm.systemtest.TC_05_CreateLead" time="9.266">
-    <system-out><![CDATA[Prabhas342 is verified
-Tollywood313 is verified
-]]></system-out>
-    <system-err><![CDATA[Apr 29, 2025 12:40:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
+  <testcase name="configAM" classname="com.comcast.crm.orgtest.CreateOrgTest" time="3.093">
+    <failure message="unexpected alert open: {Alert text : Organization Name Already Exists!}&#10;  (Session info: chrome=135.0.7049.116): Organization Name Already Exists!&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.14&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [83d902554034ce218a8b1b6ed075d6e9, findElement {value=//img[@src=&apos;themes/softed/images/user.PNG&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.116, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\CHETHA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52677/devtoo..., se:cdpVersion: 135.0.7049.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 83d902554034ce218a8b1b6ed075d6e9" type="org.openqa.selenium.UnhandledAlertException"><![CDATA[org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : Organization Name Already Exists!}
+  (Session info: chrome=135.0.7049.116): Organization Name Already Exists!
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83d902554034ce218a8b1b6ed075d6e9, findElement {value=//img[@src='themes/softed/images/user.PNG'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.116, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\CHETHA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52677/devtoo..., se:cdpVersion: 135.0.7049.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 83d902554034ce218a8b1b6ed075d6e9
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.comcast.crm.generic.webdriverutility.WebDriverUtility.waitForElementToBeClickable(WebDriverUtility.java:27)
+	at com.comcast.crm.objectrepositoryutility.HomePage.logout(HomePage.java:103)
+	at com.comcast.crm.basetest.BaseClass.configAM(BaseClass.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
   </testcase>
-  <testcase name="run" classname="com.comcast.crm.systemtest.TC_06_CreateProduct" time="8.726">
-    <system-out><![CDATA[Iphone_2798 is verified
-]]></system-out>
-    <system-err><![CDATA[Apr 29, 2025 12:41:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
+  <testcase name="configAM" classname="com.comcast.crm.orgtest.CreateOrgTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="configAM" classname="com.comcast.crm.orgtest.CreateOrgTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="configBM" classname="com.comcast.crm.orgtest.CreateOrgTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="configBM" classname="com.comcast.crm.orgtest.CreateOrgTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="createOrgWithIndustryTest" classname="com.comcast.crm.orgtest.CreateOrgTest" time="0.0">
+    <skipped message="unexpected alert open: {Alert text : Organization Name Already Exists!}&#10;  (Session info: chrome=135.0.7049.116): Organization Name Already Exists!&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.14&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [83d902554034ce218a8b1b6ed075d6e9, findElement {value=//img[@src=&apos;themes/softed/images/user.PNG&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.116, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\CHETHA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52677/devtoo..., se:cdpVersion: 135.0.7049.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 83d902554034ce218a8b1b6ed075d6e9"/>
+  </testcase>
+  <testcase name="createOrgWithPhoneNoTest" classname="com.comcast.crm.orgtest.CreateOrgTest" time="0.0">
+    <skipped message="unexpected alert open: {Alert text : Organization Name Already Exists!}&#10;  (Session info: chrome=135.0.7049.116): Organization Name Already Exists!&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.14&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [83d902554034ce218a8b1b6ed075d6e9, findElement {value=//img[@src=&apos;themes/softed/images/user.PNG&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.116, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\CHETHA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52677/devtoo..., se:cdpVersion: 135.0.7049.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 83d902554034ce218a8b1b6ed075d6e9"/>
+  </testcase>
+  <testcase name="configAC" classname="com.comcast.crm.orgtest.CreateOrgTest" time="0.0">
+    <skipped/>
   </testcase>
 </testsuite>

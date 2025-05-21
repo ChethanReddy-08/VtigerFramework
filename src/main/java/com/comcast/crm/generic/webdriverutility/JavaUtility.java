@@ -1,3 +1,4 @@
+
 package com.comcast.crm.generic.webdriverutility;
 
 import java.text.SimpleDateFormat;
@@ -10,7 +11,7 @@ public class JavaUtility
 	public int getRandomNumber()
 	{
 		Random random = new Random();
-		int randomNum = random.nextInt(5000);
+		int randomNum = random.nextInt(10000);
 		return randomNum;
 	}
 	
